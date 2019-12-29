@@ -19,6 +19,11 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
+        git clone "https://tylerstuff:4a5614b3edfdc2d1117902a07907c7dd730561df@github.com/tylerstuff/randproxy.git"
+        cd randproxy
+        python setup.py install
+        cd ..
+        rm -rf randproxy
         python -m pip install --upgrade pip
         python setup.py install
     - name: Lint with flake8
