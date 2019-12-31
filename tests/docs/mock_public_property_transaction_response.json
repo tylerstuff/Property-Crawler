@@ -1,0 +1,34 @@
+[
+  {
+      "block": "32",
+      "road_name": "NEW MKT RD",
+      "floor_range": "07 TO 09",
+      "floor_area": "559.7228",
+      "model_type": "Standard",
+      "flat_type": "2 ROOM",
+      "price": 318000,
+      "transactdate": "Jun 2018",
+      "town": "CENTRAL AREA",
+      "address": "32,NEW MKT RD 050032",
+      "lease_date": "1983",
+      "date": "2018-06-01",
+      "remaining_lease": "63",
+      "remaining_lease_mth": "10"
+  },
+  {
+      "block": "32",
+      "road_name": "NEW MKT RD",
+      "floor_range": "07 TO 09",
+      "floor_area": "559.7228",
+      "model_type": "Standard",
+      "flat_type": "2 ROOM",
+      "price": 295000,
+      "transactdate": "Aug 2017",
+      "town": "CENTRAL AREA",
+      "address": "32,NEW MKT RD 050032",
+      "lease_date": "1983",
+      "date": "2017-08-01",
+      "remaining_lease": "64",
+      "remaining_lease_mth": "07"
+  }
+]
