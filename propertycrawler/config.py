@@ -1,7 +1,16 @@
 TOKEN_URL = 'https://developers.onemap.sg/publicapi/publicsessionid'
 
 DISTRICT_URL = 'https://developers.onemap.sg/publicapi/propsvc/retrieve_prop' \
-'erty_locations_within_district'
+    'erty_locations_within_district'
+
+PRIVATEPROPERTY_URL = 'https://developers.onemap.sg/publicapi/propsvc/getPPT' \
+    'ransactionRecordsByLatLon'
+PRIVATERENT_URL = 'https://developers.onemap.sg/publicapi/propsvc/getPPRenta' \
+    'lRecordsByLatLon'
+PUBLICPROPERTY_URL = 'https://developers.onemap.sg/publicapi/propsvc/getHDBR' \
+    'esaleByBuildingBlock'
+PUBLICRENT_URL = 'https://developers.onemap.sg/publicapi/propsvc/getHDBRenta' \
+    'lByBuildingBlock'
 
 POSTAL_DISTRICTS = range(1, 28)
 
